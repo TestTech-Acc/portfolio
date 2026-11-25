@@ -383,8 +383,12 @@ section:nth-child(even){background:var(--section-even-bg);backdrop-filter:blur(8
 /* ── FOOTER ── */
 footer{
   position:relative;z-index:1;
-  background:var(--text);color:rgba(255,255,255,0.7);
+  background:#0F172A;color:rgba(255,255,255,0.7);
   padding:2.5rem 5%;
+}
+[data-theme="dark"] footer{
+  background:#060A12;
+  border-top:1px solid var(--border);
 }
 .footer-inner{
   max-width:1200px;margin:0 auto;
